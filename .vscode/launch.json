@@ -12,7 +12,7 @@
             ],
             "cwd": "${workspaceFolder}/src",
             "console": "integratedTerminal",
-            "requireExactSource": false
+            "requireExactSource": true
         },
         {
             "name": "Run",
@@ -24,7 +24,7 @@
             ],
             "cwd": "${workspaceFolder}/src",
             "console": "integratedTerminal",
-            "requireExactSource": false
+            "requireExactSource": true
         },
         {
             "name": "Configure",
@@ -37,21 +37,21 @@
             ],
             "cwd": "${workspaceFolder}/src",
             "console": "integratedTerminal",
-            "requireExactSource": false
+            "requireExactSource": true
         },
         {
             "name": "Debug Worker",
             "type": "coreclr",
             "request": "attach",
             "processName": "Runner.Worker",
-            "requireExactSource": false
+            "requireExactSource": true
         },
         {
             "name": "Attach Debugger",
             "type": "coreclr",
             "request": "attach",
-            "processId": "${command:pickProcess}",
-            "requireExactSource": false
+            "processId": "${command:pickerProcess}",
+            "requireExactSource": true
         },
     ],
 }
