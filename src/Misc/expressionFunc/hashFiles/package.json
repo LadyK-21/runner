@@ -27,7 +27,7 @@
     "@types/node": "^12.7.12",
     "@typescript-eslint/parser": "^5.15.0",
     "@zeit/ncc": "^0.20.5",
-    "eslint": "^8.11.0",
+    "eslint": "^8.16.0",
     "eslint-plugin-github": "^4.3.5",
     "prettier": "^1.19.1",
     "typescript": "^3.6.4"
